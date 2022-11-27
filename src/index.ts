@@ -1,9 +1,7 @@
 #!/usr/bin/env node
 import meow from 'meow';
 
-const s = 'hogehoge';
-
-console.log(s)
+import { genbacat } from './assets/genbacat.js'
 
 const cli = meow(`
     Usage
@@ -13,3 +11,5 @@ const cli = meow(`
 })
 
 console.log(cli.input)
+
+console.log(genbacat)
