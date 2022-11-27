@@ -1,7 +1,7 @@
 #!/usr/bin/env ts-node-esm
 import meow from 'meow';
 
-import { genbacat } from './assets/genbacat.js'
+import { getGenbacat } from './assets/genbacat.js'
 
 const cli = meow(`
     Usage
@@ -10,6 +10,4 @@ const cli = meow(`
     importMeta: import.meta,
 })
 
-console.log(cli.input)
-
-console.log(genbacat)
+console.log(getGenbacat(cli.input.join(' ')))

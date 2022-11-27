@@ -1,4 +1,16 @@
-export const genbacat = `･･･ヨシ！
+export const getGenbacat = (text: string) => {
+       return hukidashi(text || '･･･ヨシ！') + genbacat
+}
+
+const hukidashi = (text: string) => {
+       return `
+＿人人人人人人＿
+＞  ${text}  ＜
+￣Y^Y^Y^Y^Y￣
+`
+}
+
+const genbacat = `
        ∧    /ヽ
       /／￣￣＼|
      ∠＿╋＿＿＿〉
