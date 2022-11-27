@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env ts-node-esm
 import meow from 'meow';
 
 import { genbacat } from './assets/genbacat.js'
