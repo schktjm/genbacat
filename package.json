@@ -12,5 +12,8 @@
   "devDependencies": {
     "ts-node": "^10.9.1",
     "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "meow": "^11.0.0"
   }
 }
