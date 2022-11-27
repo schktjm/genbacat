@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import meow from 'meow';
 
-const s: string = 'hogehoge';
+const s = 'hogehoge';
 
 console.log(s)
 
