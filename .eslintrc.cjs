@@ -18,5 +18,6 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
+        "eol-last": 2
     }
 }
